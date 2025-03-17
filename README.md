@@ -1,6 +1,6 @@
 
-Soubor 2kanaly_2sek.bin je sestaven v Arduinu/Sketch/Exportovat...    
-Pomocí Python skriptů lssz.py a bin2ota.py ho nejlépe v linuxu převedu na 2kanaly_2sek.ino.ota       
-Ten F.Opta zkouší stáhnout a updatovat svůj firmware a to po přenosu do influxdb(každých 10 minut) aspoň hodinu od resetu
-(dříve je tento update možno vyvolat stisnutím  tlačítka na F. Opta, 2x, 3-6 s po sobě) 
+Firmware pro F.Opta byl volbou Arduino/Sketch/Exportovat... zkompilován a sestaven do binárního formátu  2kanaly_2sek.bin.      
+Pomocí Python skriptů lssz.py a bin2ota.py se nejlépe v linuxu převede do souboru  2kanaly_2sek.ino.ota, který je zkopírován sem na github.       
+F.Opta zkouší tento soubor stáhnout a updatovat jím firmware a to po každém přenosu dat do influxdb(tj. po 10 minutách) aspoň hodinu od resetu F. Opta
+(dříve je tento update možno vyvolat stisnutím  tlačítka na F. Opta, 2x cca 3-6 s po sobě) 
 Soubor 2kanaly_2sek.ino.ota je pak třeba vymazat, aby se update zbytečně neopakoval. 
